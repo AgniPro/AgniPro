@@ -443,10 +443,7 @@ body#layout .mobileContent:before{content:'Mobile Menu'}
   .blogContent .mainbar{margin-right:auto;margin-left:auto; transition:var(--transition-1)}
   .blogContent .mainbar > *:not(:last-child){margin-bottom:25px;padding-bottom:25px; border-bottom:1px solid var(--content-border)}
   .blogContent .mainbar > .no-items{margin-bottom:0;padding-bottom:0;border-bottom:0}
-  .blogContent .mainbar{max-width:780px}
-  .blogContent .sidebar{max-width:600px}
-  .blogContent .sidebar{flex:0 0 330px;width:330px; padding-left:30px}
-  .blogContent .sidebar #side-sticky{position:-webkit-sticky;position:sticky;top:75px}
+  .blogContent .mainbar{max-width:90%}
   .onPage .blogContent .mainbar, .onPage footer .creditInner{max-width:var(--page-maxContent); margin-left:auto;margin-right:auto}
   .blogPosts{display:flex;flex-wrap:wrap; position:relative;width:calc(100% + 20px);left:-10px}
   .blogPosts.empty{width:100%;left:0}
@@ -1445,46 +1442,18 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
   <input class='dropMenu hidden' id='offdropMenu1' name='dropDown' type='checkbox'/>
   <label class='link' for='offdropMenu1'>
     <b:include name='folder-icon'/>
-    <span class='name'>Under Graduate</span>
+    <span class='name'>Und</span>
     <b:include name='arow-down-icon'/>
   </label>
   <ul>
-    <li itemprop='name'><a href='/search/label/Syllabus' itemprop='url'>Syllabus</a></li>
-    <li itemprop='name'><a href='/search/label/Physics' itemprop='url'>Physics</a></li>
-    <li itemprop='name'><a href='/search/label/English' itemprop='url'>English</a></li>
-    <li itemprop='name'><a href='/search/label/Mathematics' itemprop='url'>Mathematics</a></li>
-    <li itemprop='name'><a href='/search/label/Chemestry' itemprop='url'>Chemestry</a></li>
+    <li itemprop='name'><a href='/search/' itemprop='url'>Sy</a></li>
+    <li itemprop='name'><a href='/search/' itemprop='url'>Phy</a></li>
+    <li itemprop='name'><a href='/search/' itemprop='url'>En</a></li>
+    <li itemprop='name'><a href='/search/' itemprop='url'>Mats</a></li>
+    <li itemprop='name'><a href='/search/' itemprop='url'>Chem</a></li>
   </ul>
 </li>
-<li class='dropDown break'>
-  <input class='dropMenu hidden' id='offdropMenu2' name='dropDown' type='checkbox'/>
-  <label class='link' for='offdropMenu2'>
-    <b:include name='folder-icon'/>
-    <span class='name'>Post Graduate</span>
-    <b:include name='arow-down-icon'/>
-  </label>
-  <ul>
-    <li itemprop='name'><a href='/search/label/Syllabus' itemprop='url'>Syllabus</a></li>
-    <li itemprop='name'><a href='/search/label/Physics' itemprop='url'>Physics</a></li>
-    <li itemprop='name'><a href='/search/label/English' itemprop='url'>English</a></li>
-    <li itemprop='name'><a href='/search/label/Mathematics' itemprop='url'>Mathematics</a></li>
-    <li itemprop='name'><a href='/search/label/Chemestry' itemprop='url'>Chemestry</a></li>
-  </ul>
-</li>
-<li class='dropDown break'>
-  <input class='dropMenu hidden' id='offdropMenu3' name='dropDown' type='checkbox'/>
-  <label class='link' for='offdropMenu3'>
-    <b:include name='folder-icon'/>
-    <span class='name'>Mathematical Tips And Trick</span>
-    <b:include name='arow-down-icon'/>
-  </label>
-  <ul>
-    <li itemprop='name'><a href='/search/label/mathematical%20tips%20and%20trick' itemprop='url'>All Post</a></li>
-    <li itemprop='name'><a href='/search/label/mathematical%20tips%20and%20trick' itemprop='url'>Top</a></li>
-    <li itemprop='name'><a href='/2021/06/how-to-find-square-root-very-easly.html' itemprop='url'>Square Root</a></li>
-    <li itemprop='name'><a href='/2021/06/how-to-find-cube-of-any-number-easly-n.html' itemprop='url'>Cube Root</a></li>
-  </ul>
-</li>
+
 <li>
   <a class='link' href='/p/become-creator.html' itemprop='url'>
     <b:include name='edit-square-icon'/>
@@ -1630,41 +1599,6 @@ Download   LearnGraduation   Android Application  NOW
   <div class='blogContent'>
 <main class='mainbar'>
   <b:section cond='data:view.isHomepage' id='top-widget' showaddelement='true'>
-    <b:widget id='HTML00' locked='true' title='Slider Mini' type='HTML' version='2' visible='true'>
-      <b:widget-settings>
-        <b:widget-setting name='content'>&lt;li id=&#39;sliderDiv1&#39; class=&#39;sliderDiv&#39;&gt;
-LearnGraduation INDIA,s Own Learning App Subscribe Us
-    &lt;a class=&#39;sliderImg lazy&#39; href=&#39;https://feedburner.google.com/fb/a/mailverify?uri=learngraduation-feed&#39; data-bg=&#39;https://1.bp.blogspot.com/-lMBi2ImDxiQ/YPGA-rkyb2I/AAAAAAAACro/RAU3MBZteYI_AApFEhgRE379guGbRXJcQCLcBGAsYHQ/s1200/learngraduationcard.png&#39; aria-label=&#39;Slider&#39;&gt;&lt;/a&gt;
-
-  &lt;div class=&#39;sliderSnapper&#39;&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li id=&#39;sliderDiv2&#39; class=&#39;sliderDiv&#39;&gt;
- Explore the great collection of e-Books
-  &lt;a class=&#39;sliderImg lazy&#39; href=&#39;https://learngraduation.blogspot.com/2021/07/e-book-mathamatics.html&#39; data-bg=&#39;https://1.bp.blogspot.com/-RcBSZgoyC40/YQExtEm8CnI/AAAAAAAACuw/RaFzVeN8oyozIGJ2UeFzewF9p5X0nQX4gCLcBGAsYHQ/s0/Mathamatics%2528learnGraduation.webp&#39; aria-label=&#39;Slider&#39;&gt;&lt;/a&gt;
-
-  &lt;div class=&#39;sliderSnapper&#39;&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li id=&#39;sliderDiv3&#39; class=&#39;sliderDiv&#39;&gt;
-Under Graduate NEW Syllabus 
-  &lt;a class=&#39;sliderImg lazy&#39; href=&#39;https://learngraduation.blogspot.com/2021/04/UnderGraduateNEWSyllabus.html&#39; data-bg=&#39;https://1.bp.blogspot.com/-FcfuShk1Yug/YOHhTCUfUFI/AAAAAAAACmk/ghrQFvOA9s8JcfGmdX_SA5feU7AEMVumQCLcBGAsYHQ/s732/syllabus.webp&#39; aria-label=&#39;Slider&#39;&gt;&lt;/a&gt;
-
-  &lt;div class=&#39;sliderSnapper&#39;&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li id=&#39;sliderDiv4&#39; class=&#39;sliderDiv&#39;&gt;
- Explore the collection of Notes form top students
-  &lt;a class=&#39;sliderImg lazy&#39; href=&#39;https://learngraduation.blogspot.com/search/label/Notes&#39; data-bg=&#39;https://1.bp.blogspot.com/-LNJJPwBRxqg/YPa-DQxyR9I/AAAAAAAACtc/Nbl5wuiIAtot_a7vaca53VHmUUSh7eGKQCLcBGAsYHQ/s0/notes%2528learngraduation%2529.webp&#39; aria-label=&#39;Slider&#39;&gt;&lt;/a&gt;
-
-  &lt;div class=&#39;sliderSnapper&#39;&gt;&lt;/div&gt;
-&lt;/li&gt;</b:widget-setting>
-      </b:widget-settings>
-      <b:includable id='main'>
-    <section aria-label='Gallery' class='slider'>
-      <ol class='sliderViewport'>
-        <data:content/>
-      </ol>
-    </section>
-  </b:includable>
-    </b:widget>
     <b:widget cond='!data:view.isPreview' id='HTML04' locked='true' title='Mini Ads' type='HTML' version='2' visible='true'>
       <b:widget-settings>
         <b:widget-setting name='content'/>
