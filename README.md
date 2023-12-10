@@ -1,4 +1,4 @@
-# 👋 Hi, I’m [@AgniPro](https://github.com/AgniPro) (Abhishek Kumar Mehta)
+# 👋 Hi, I’m (Abhishek Kumar Mehta) [@AgniPro](https://github.com/AgniPro)
 ## 👨‍💻 MERN Stack Developer
 ### 🚀 Passionate about creating seamless and efficient web applications using MongoDB, Express.js, React.js, and Node.js
 ### 🌱 Currently mastering the art of Python and diving into the exciting world of AI
